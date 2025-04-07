@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jashwanth-portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+
+
+
+
+<!-- Body content  start-->
+    <div class="content">
+        <header>
+            <h1><strong>J</strong>ashwanth Bommakanti</h1>
+            <nav id="nav">
+                <ul id="navbarMenu">
+                    <li><a href="#about" onclick="showSection('about')" class="active">About</a></li>
+                    <li><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+                    <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+                    <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+                    <li><a href="#resume" onclick="showSection('resume')">Resume</a></li>
+                </ul>
+            </nav>
+            <div class="nav-click">
+                <i class="fa-solid fa-bars" id="hamburger" onclick="toggleNav()"></i>
+            </div>
+        </header>
+
+        <div class="home-content">
+            <img src="images/img-1.png" alt="Jashwanth Bommakanti" class="profile-image" />
+
+            <div class="home-text">
+                <!-- <h1>Welcome to My Portfolio</h1> -->
+                <h2>Hello! I'm Jashwanth</h2>
+                <p>
+                    As a recent graduate in <strong>CSE(AI&ML)</strong>, I have developed a strong foundation in
+                    programming, algorithms, and web development. Through my academic projects, I gained practical
+                    experience and a deep understanding of creating dynamic and user-friendly web applications. I have
+                    also earned certifications in Python and Java, which have equipped me with the skills to build
+                    efficient, scalable solutions. I am excited to bring my enthusiasm for web development.
+                </p>
+            </div>
+
+            <!-- Section Container -->
+            <div id="section-container">
+                <div id="about" class="section" style="display: none">
+                    <h1>About Me</h1>
+                    <p>
+                        I am passionate about developing software that makes an impact. My journey in computer science
+                        has been marked by constant learning and adapting to new challenge.
+                    </p>
+
+
+                    <ul>
+                        <li> <strong> Computer Science Engineering graduate    specialized in Artificial Intelligence and Machine Learning </strong>
+                            Equipped with a solid foundation in software development and problem-solving.
+                        </li>
+
+                        <li>
+                            <strong>Certified Front-End Developer</strong> in HTML, CSS, JavaScript, and modern
+                            frameworks.
+                        </li>
+
+                        <li>
+                            <strong>User Experience Enthusiast</strong> Passionate about creating intuitive and
+                            responsive interfaces</.
+                        </li>
+
+                        <li>
+                            <strong>Continuous Learner</strong> Committed to staying current with the latest web
+                            development trends.
+                        </li>
+
+                        <li> 
+                            <strong>Solutions Builder</strong> Focused on developing efficient, high-performance
+                            applications.
+                        </li>
+                    </ul>
+                </div>
+                <div id="skills" class="section" style="display: none">
+                    <h1>My Skills</h1>
+
+                    <p><strong> Technical skills:</strong> Python, Java,  Html ,Css,JavaScript</p>
+
+                   
+
+                    <p><strong>Soft Skills:</strong>  Leadership,Communication,Adaptability,Teamwork</p>
+                    
+                </div>
+        </div>
+
+
+<!-- Project section start -->
+            <div id="projects" class="section" style="display: none">
+                <h1>Projects</h1>
+                <h3>Here are some of the projects I've worked on</h3>
+
+                <div class="project1">
+                    <h2>PhonePe-India</h2>
+                    <div class="brief">
+                        <img src="images/phone pe.png" alt="" class="pj-1">
+
+                        <p>
+                            Developed a responsive front-end website for PhonePe India using HTML, CSS, JavaScript, and
+                            the Bootstrap framework. This project showcases a clean, modern design with a focus on
+                            mobile responsiveness and user interaction. It includes dynamic features such as interactive
+                            buttons, smooth animations, and adaptive layouts to enhance user engagement. The design
+                            prioritizes usability across various devices, ensuring a consistent and seamless experience
+                            for all <br><br> View the project <a
+                                href="https://jashwanth-114.github.io/Web-Development/">here</a>
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="project2">
+                    <h2>
+                        Soundsgreat
+                    </h2>
+
+                    <div class="brief">
+                        <img src="images/soundsgreat.png" alt="">
+                        <p>This project features a web-based music player for movie songs, built with HTML and CSS. It
+                            includes essential audio controls and displays song details like title and artist. The
+                            design is responsive, ensuring a great user experience across different devices. This
+                            project highlights my skills in creating functional and visually appealing web
+                            applications<br><br> View the project
+                            <a href="https://jashwanth-114.github.io/Soundsgreat/">here</a>
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="project3">
+                    <h2>
+                        CryptoCurrency Analysis
+                    </h2>
+
+
+                    <div class="brief">
+                        <img src="images/Cryptocurrency.png" alt="">
+                        <p>Developed a dynamic platform for real-time cryptocurrency price tracking using HTML, CSS,
+                            JavaScript, Django, Python, and SQL. The project features up-to-date pricing information and
+                            comprehensive analysis tools. It integrates a powerful backend with a user-friendly frontend
+                            for seamless interaction. The system supports detailed data visualization and responsive
+                            design for optimal user experience.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+<!-- Project section end -->
+
+
+
+<!-- Contact section start -->
+            <div id="contact" class="section" style="display: none">
+                <h1>Contact</h1>
+
+                <span>Contact me through</span>
+                <div id="social-links">
+                    <a href="https://www.linkedin.com/in/bommakanti-jashwanth-57a662240/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Jashwanth-114"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="mailto:your-email@example.com" class="email-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+
+
+<!-- Project section end -->
+
+<!-- Resume section start -->
+
+
+            </div>
+            <div id="resume" class="section" style="display: none">
+                <h1>Resume</h1>
+                <p>
+                    You can download my resume <a href="JashwanthResume.pdf" target="_blank">here</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+<!-- Body content  end-->
+    </div>
+
+<!-- Resume section end -->
+
+
+<!-- Js file -->
+    <script src="script.js"></script>
+<!-- Js file -->
+</body>
+
+</html>
